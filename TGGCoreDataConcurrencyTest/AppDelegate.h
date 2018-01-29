@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  TGGCoreDataConcurrencyTest
 //
-//  Created by Denis Obukhov on 29/01/2018.
+//  Created by Anon on 29/01/2018.
 //  Copyright © 2018 Anon. All rights reserved.
 //
 
@@ -12,11 +12,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong) NSPersistentContainer *persistentContainer;
-
-- (void)saveContext;
-
 
 @end
 

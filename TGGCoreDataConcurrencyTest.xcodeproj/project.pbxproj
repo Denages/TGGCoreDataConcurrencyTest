@@ -14,6 +14,7 @@
 		36018659201F4C130008E9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36018658201F4C130008E9BD /* Assets.xcassets */; };
 		3601865C201F4C130008E9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601865A201F4C130008E9BD /* LaunchScreen.storyboard */; };
 		3601865F201F4C130008E9BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601865E201F4C130008E9BD /* main.m */; };
+		36018667201F4DCA0008E9BD /* TGGCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 36018666201F4DCA0008E9BD /* TGGCoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		3601865B201F4C130008E9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3601865D201F4C130008E9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3601865E201F4C130008E9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36018665201F4DCA0008E9BD /* TGGCoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGGCoreDataStack.h; sourceTree = "<group>"; };
+		36018666201F4DCA0008E9BD /* TGGCoreDataStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGGCoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				3601864C201F4C130008E9BD /* AppDelegate.h */,
 				3601864D201F4C130008E9BD /* AppDelegate.m */,
+				36018665201F4DCA0008E9BD /* TGGCoreDataStack.h */,
+				36018666201F4DCA0008E9BD /* TGGCoreDataStack.m */,
 				3601864F201F4C130008E9BD /* ViewController.h */,
 				36018650201F4C130008E9BD /* ViewController.m */,
 				36018652201F4C130008E9BD /* Main.storyboard */,
@@ -149,6 +154,7 @@
 				36018657201F4C130008E9BD /* TGGCoreDataConcurrencyTest.xcdatamodeld in Sources */,
 				3601865F201F4C130008E9BD /* main.m in Sources */,
 				3601864E201F4C130008E9BD /* AppDelegate.m in Sources */,
+				36018667201F4DCA0008E9BD /* TGGCoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TGGCoreDataConcurrencyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Anon.TGGCoreDataConcurrencyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TGGCoreDataConcurrencyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Anon.TGGCoreDataConcurrencyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
